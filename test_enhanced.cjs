@@ -1,0 +1,3 @@
+const assert=require('node:assert/strict');
+let saved=null;global.localStorage={getItem:()=>saved,setItem:(k,v)=>saved=v};const {createIncident,moveIncident,loadIncidents}=require('./enhanced.js');const r=createIncident({title:'Fictional outage',service:'API',severity:'High'}),p={id:r.id,state:'Investigating',version:1,request_key:'first'};assert.deepEqual(moveIncident(p),moveIncident(p));assert.equal(loadIncidents()[0].history.length,2);assert.throws(()=>moveIncident({...p,state:'Closed',version:2,request_key:'skip'}));assert.throws(()=>moveIncident({...p,state:'Resolved',request_key:'stale'}));
+console.log('Enhanced behavior tests passed');

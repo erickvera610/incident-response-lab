@@ -1,0 +1,40 @@
+{
+  "project": "incident-response-lab",
+  "executed_at_utc": "2026-10-10T18:37:13.555378+00:00",
+  "execution_method": "Python script",
+  "summary": {
+    "retry_does_not_duplicate": true,
+    "stale_write_rejected": true,
+    "persisted_state_after_reopen": "Resolved",
+    "events_after_resolution": 3
+  },
+  "runs": [
+    {
+      "id": 1,
+      "title": "Fictional API outage",
+      "service": "API",
+      "severity": "High",
+      "state": "Resolved",
+      "version": 3,
+      "created_at": "2026-10-10T18:37:13.550761+00:00",
+      "history": [
+        {
+          "state": "Open",
+          "version": 1,
+          "created_at": "2026-10-10T18:37:13.550761+00:00"
+        },
+        {
+          "state": "Investigating",
+          "version": 2,
+          "created_at": "2026-10-10T18:37:13.551685+00:00"
+        },
+        {
+          "state": "Resolved",
+          "version": 3,
+          "created_at": "2026-10-10T18:37:13.553486+00:00"
+        }
+      ]
+    }
+  ],
+  "limitations": "Reproducible prototype evidence, not employer affiliation or production certification."
+}
