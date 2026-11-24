@@ -1,0 +1,354 @@
+{
+  "project": "incident-response-lab",
+  "date_utc": "2026-11-24",
+  "executed_at_utc": "2026-11-24T00:18:46.739021+00:00",
+  "data_kind": "fictional/synthetic",
+  "execution_method": "Python script",
+  "seed": 20261124,
+  "input": {
+    "seed": 20261124,
+    "count": 15
+  },
+  "output": {
+    "incidents": [
+      {
+        "id": 1,
+        "service": "API",
+        "severity": "High",
+        "state": "Investigating",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "service": "Database",
+        "severity": "Medium",
+        "state": "Investigating",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 22
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "service": "Web",
+        "severity": "Low",
+        "state": "Closed",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 64
+          },
+          {
+            "state": "Resolved",
+            "minute": 131
+          },
+          {
+            "state": "Closed",
+            "minute": 156
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "service": "API",
+        "severity": "High",
+        "state": "Resolved",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 59
+          },
+          {
+            "state": "Resolved",
+            "minute": 136
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "service": "Database",
+        "severity": "Medium",
+        "state": "Investigating",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 14
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "service": "Web",
+        "severity": "Low",
+        "state": "Closed",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 5
+          },
+          {
+            "state": "Resolved",
+            "minute": 84
+          },
+          {
+            "state": "Closed",
+            "minute": 160
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "service": "API",
+        "severity": "High",
+        "state": "Investigating",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 23
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "service": "Database",
+        "severity": "Medium",
+        "state": "Closed",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 62
+          },
+          {
+            "state": "Resolved",
+            "minute": 104
+          },
+          {
+            "state": "Closed",
+            "minute": 112
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "service": "Web",
+        "severity": "Low",
+        "state": "Closed",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 74
+          },
+          {
+            "state": "Resolved",
+            "minute": 124
+          },
+          {
+            "state": "Closed",
+            "minute": 204
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "service": "API",
+        "severity": "High",
+        "state": "Resolved",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 14
+          },
+          {
+            "state": "Resolved",
+            "minute": 28
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "service": "Database",
+        "severity": "Medium",
+        "state": "Closed",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 37
+          },
+          {
+            "state": "Resolved",
+            "minute": 124
+          },
+          {
+            "state": "Closed",
+            "minute": 149
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "service": "Web",
+        "severity": "Low",
+        "state": "Resolved",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 75
+          },
+          {
+            "state": "Resolved",
+            "minute": 121
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "service": "API",
+        "severity": "High",
+        "state": "Investigating",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 38
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "service": "Database",
+        "severity": "Medium",
+        "state": "Closed",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 38
+          },
+          {
+            "state": "Resolved",
+            "minute": 77
+          },
+          {
+            "state": "Closed",
+            "minute": 128
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "service": "Web",
+        "severity": "Low",
+        "state": "Closed",
+        "history": [
+          {
+            "state": "Open",
+            "minute": 0
+          },
+          {
+            "state": "Investigating",
+            "minute": 22
+          },
+          {
+            "state": "Resolved",
+            "minute": 91
+          },
+          {
+            "state": "Closed",
+            "minute": 138
+          }
+        ]
+      }
+    ],
+    "resolved_count": 10,
+    "mean_resolution_minutes": 102.0,
+    "note": "Fictional event histories. A learning prototype for software reliability, not a live monitoring system.",
+    "persisted_exercise": {
+      "id": 1,
+      "title": "Fictional 2026-11-24 incident",
+      "service": "API",
+      "severity": "High",
+      "state": "Resolved",
+      "version": 3,
+      "created_at": "2026-11-24T00:18:46.759235+00:00",
+      "history": [
+        {
+          "state": "Open",
+          "version": 1,
+          "created_at": "2026-11-24T00:18:46.759235+00:00"
+        },
+        {
+          "state": "Investigating",
+          "version": 2,
+          "created_at": "2026-11-24T00:18:46.760963+00:00"
+        },
+        {
+          "state": "Resolved",
+          "version": 3,
+          "created_at": "2026-11-24T00:18:46.762219+00:00"
+        }
+      ]
+    }
+  },
+  "completed": true
+}
